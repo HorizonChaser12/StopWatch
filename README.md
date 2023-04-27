@@ -1,6 +1,6 @@
 # Stopwatch
 
-This is a Flutter application that implements a simple stopwatch functionality. The app displays the time in hours, minutes, and seconds format and provides a "Play/Pause" button to start and stop the timer. Additionally, a "Reset" button is displayed when the timer is stopped and values are not at their initial state. The app is built using the Flutter framework and utilizes the StatefulWidget class to handle the state of the stopwatch. The code is well-structured and commented to make it easy to understand and modify. This code can be useful for anyone interested in learning how to implement basic timer functionality in a Flutter application.
+This is a Flutter application that implements a simple stopwatch functionality. The app displays the time in hours, minutes, and seconds format and provides a "Play/Pause" button to start and stop the timer. Additionally, a "Reset" button is displayed when the timer is stopped and values are not at their initial state. The app is built using the Flutter framework and utilizes the StatefulWidget class to handle the state of the stopwatch. The code is well-structured and commented to make it easy to understand and modify. Implemented while working as Android Developer Intern in Oasis Infobytes .
 
 ## Getting Started
 
