@@ -1,6 +1,6 @@
-# stopwatch
+# Stopwatch
 
-A new Flutter project.
+A new Flutter project which i made while working as a Intern for Oasis Infobyted as a Android Developer.
 
 ## Getting Started
 
