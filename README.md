@@ -7,6 +7,7 @@ This is a Flutter application that implements a simple stopwatch functionality. 
 ![image](https://user-images.githubusercontent.com/78254378/234950106-0af801e3-1117-4c17-98bd-dddda6aafa52.png)
 
 <hr>
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
