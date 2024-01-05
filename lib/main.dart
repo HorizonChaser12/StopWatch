@@ -13,12 +13,18 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Stopwatch',
+      title: "StopWatch",
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primarySwatch: Colors.pink,
+      theme: ThemeData.dark().copyWith(
+        appBarTheme: const AppBarTheme(
+          backgroundColor: Color.fromARGB(255, 153, 89, 155),
+          centerTitle: true,
+          titleTextStyle: TextStyle(fontSize: 25),
+        ),
+        scaffoldBackgroundColor: const Color.fromARGB(255, 255, 255, 255),
       ),
       home: const StopWatchScreen(),
+      color: Colors.red,
     );
   }
 }
@@ -41,7 +47,7 @@ class _StopWatchScreenState extends State<StopWatchScreen> {
     setState(() {
       isTimerRunning = true;
     });
-    _timer = Timer.periodic(Duration(seconds: 1), (timer) {
+    _timer = Timer.periodic(const Duration(seconds: 1), (timer) {
       _startSecond();
     });
   }
@@ -135,7 +141,7 @@ class _StopWatchScreenState extends State<StopWatchScreen> {
           children: [
             Text(
               "$hoursString:$minuteString:$secondString",
-              style: TextStyle(
+              style: const TextStyle(
                 fontSize: 50,
                 fontWeight: FontWeight.w500,
               ),
@@ -155,9 +161,9 @@ class _StopWatchScreenState extends State<StopWatchScreen> {
                     onPressed: () {
                       resetTimer();
                     },
-                    child: Text("Reset"),
+                    child: const Text("Reset"),
                   )
-                : SizedBox(),
+                : const SizedBox(),
           ],
         ),
       ),
